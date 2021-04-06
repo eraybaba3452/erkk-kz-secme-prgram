@@ -1,0 +1,18 @@
+div {
+    width: 458px;  
+    height: 250px;  
+    flex-direction: column;  
+    border: thin solid black;  
+    border-radius: 10px 0 10px 0;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    }
+    
+    body {
+    display: flex;  
+    flex-direction: column;  
+    height: 100vh;  
+    justify-content: center;  
+    align-items: center;  
+    }

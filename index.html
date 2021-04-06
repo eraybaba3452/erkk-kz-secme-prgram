@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erkek Kız İsim Blma</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div> 
+        <h3 id = "baslik"> Erkek / Kız isim Bulucu </h3>
+
+        <form action = "#" id = "isimbul">
+
+        <label for = "cinsiyet"> cinsiyet seciniz: </label> 
+
+        <select id  = "slctcinsiyet"> 
+
+            <option value = "E">Erkek</option>
+            <option value = "K">Kız</option> 
+
+        </select>
+
+        <input type = "button" id = "btnbul" value = " isimbul" onclick ="isimbul();">
+
+        <button id ="btngetir"onclick ="isimgetir();"> Bütün isimleri getir </button>
+        
+        </form>
+        
+        <h5 id="sonuc"></h5>
+
+        <script src="index.js"></script>
+</body>
+</html>
